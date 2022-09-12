@@ -13,6 +13,7 @@ import { MatCheckboxModule } from '@angular/material';
 import { MatSelectModule } from '@angular/material';
 import { MatSlideToggleModule } from '@angular/material';
 import { MatProgressSpinnerModule } from '@angular/material';
+import { MatSliderModule } from '@angular/material/slider';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -65,7 +66,8 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     MatCheckboxModule,
     MatSelectModule,
     MatSlideToggleModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatSliderModule
   ],
   providers: [DishService, PromotionService, LeaderService],
   entryComponents:[LoginComponent],
